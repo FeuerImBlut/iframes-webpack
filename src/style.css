@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+:root {
+  --main-bg-color: #344e41;
+  --main-text-color: #dad7cd;
+  font-family: "Ubuntu";
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  padding: 0 20vw;
+  letter-spacing: 1.5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 70vh;
+  gap: 30px;
+}
+
+iframe {
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.load-info {
+  text-align: center;
+}
